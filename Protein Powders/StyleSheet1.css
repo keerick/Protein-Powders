@@ -1,0 +1,30 @@
+﻿body {	
+        background:url("");
+		background-repeat: no-repeat;
+	    font-family:Arial, Helvetica, sans-serif;
+		background-size: 100% ;
+		background-attachment: fixed;
+		margin:0px auto;
+     
+        width:1000px;
+       
+
+}
+
+#top_nav {
+
+text-align:center;
+}
+
+#banner {
+text-align:center;
+}
+
+ul{
+text-align:center;
+
+}
+footer {
+background-color:cornflowerblue;
+text-align: center;
+}

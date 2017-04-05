@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Protein_Powders.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" type="text/css"  href="StyleSheet1.css" runat="server" /> 
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+<div id ="banner">
+<img src="C:\Users\me\Documents\Visual Studio 2015\Projects\Protein Powders\Protein Powders\images\Protein Banner.jpg" alt="top" ;" />
+</div>
+<div id="Top_Nav">
+		<ul>
+			<a href="default.aspx"><img border="0" alt="Home" src="images/home.png"></a>
+			<a href="#"><img border="0" alt="Product" src="images/product.png"></a>
+			
+			<a href="contact.aspx"><img border="0" alt="ContactUs" src="images/contact.png"></a>
+		</ul>
+		
+		
+</div>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <footer><p>Validator <a href"http://validator.w3.org/check?uri=referer">Validate HTML</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>  <a href="http://achecker/ca/checker/?uri=referer">Check WCAG</a>
+            | Admin: <a href="login.aspx">Login</a></p></footer>
+
+</body>
+</html>
